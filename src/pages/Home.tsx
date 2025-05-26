@@ -1,9 +1,7 @@
-const Home = () => {
+export default function Home() {
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-black text-white text-4xl">
-      ✅ Tailwind is working — Home is rendering!
+    <div className="min-h-screen flex items-center justify-center bg-blue-100 text-blue-900 text-3xl font-bold">
+      ✅ It works!
     </div>
   );
-};
-
-export default Home;
+}
