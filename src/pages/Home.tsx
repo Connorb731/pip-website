@@ -1,10 +1,9 @@
-import HeroSection from '@/components/HeroSection';
-
-export default function Home() {
+const Home = () => {
   return (
-    <div className="text-white text-3xl p-6 bg-blue-700">
-      <HeroSection />
+    <div className="text-4xl text-white bg-black min-h-screen flex items-center justify-center">
+      🔥 Tailwind is working — Home is rendering!
     </div>
   );
-}
+};
 
+export default Home;
